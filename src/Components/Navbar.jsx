@@ -12,7 +12,7 @@ export default function Navbar(){
         items.forEach((item)=>{
             total+=item.price;
         })
-        setTotalAmount(total);
+        setTotalAmount(parseInt(total));
     })
 
     console.log(totalAmount);
