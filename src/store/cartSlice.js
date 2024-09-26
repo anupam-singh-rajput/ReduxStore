@@ -7,7 +7,7 @@ const cartSlice = createSlice({
     initialState: [],
     reducers: {
         add: (state, action) => {
-            const product = { ...action.payload, id: counter }; // Add the unique ID
+            const product = { ...action.payload, id: counter }; // Added the unique ID
             counter += 1;
             state.push(product);
         },

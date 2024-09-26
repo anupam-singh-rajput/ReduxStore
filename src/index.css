@@ -52,10 +52,11 @@ img {
     margin-left: 20px;
 }
 
-.cartCard {
+.cartWrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     background: #fff;
     margin-bottom: 20px;
     padding: 14px;
